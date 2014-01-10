@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073EB5A5187EA6C000EF47DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073EB5A4187EA6C000EF47DF /* Foundation.framework */; };
+		073EB5A7187EA6C000EF47DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073EB5A6187EA6C000EF47DF /* CoreGraphics.framework */; };
+		073EB5A9187EA6C000EF47DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073EB5A8187EA6C000EF47DF /* UIKit.framework */; };
+		073EB5AF187EA6C000EF47DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 073EB5AD187EA6C000EF47DF /* InfoPlist.strings */; };
+		073EB5B1187EA6C000EF47DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 073EB5B0187EA6C000EF47DF /* main.m */; };
+		073EB5B5187EA6C000EF47DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 073EB5B4187EA6C000EF47DF /* AppDelegate.m */; };
+		073EB5B8187EA6C000EF47DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073EB5B6187EA6C000EF47DF /* Main.storyboard */; };
+		073EB5BB187EA6C000EF47DF /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 073EB5BA187EA6C000EF47DF /* ViewController.mm */; };
+		073EB5BD187EA6C000EF47DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073EB5BC187EA6C000EF47DF /* Images.xcassets */; };
+		073EB5C4187EA6C000EF47DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073EB5C3187EA6C000EF47DF /* XCTest.framework */; };
+		073EB5C5187EA6C000EF47DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073EB5A4187EA6C000EF47DF /* Foundation.framework */; };
+		073EB5C6187EA6C000EF47DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073EB5A8187EA6C000EF47DF /* UIKit.framework */; };
+		073EB5CE187EA6C000EF47DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 073EB5CC187EA6C000EF47DF /* InfoPlist.strings */; };
+		073EB5D0187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 073EB5CF187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.m */; };
+		073EB5DA187EA6F500EF47DF /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073EB5D9187EA6F500EF47DF /* opencv2.framework */; };
+		073EB5DD187EA75600EF47DF /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 073EB5DC187EA75600EF47DF /* CameraImageHelper.m */; };
+		079B8E72187FC86300D2C4DA /* Utility.mm in Sources */ = {isa = PBXBuildFile; fileRef = 079B8E71187FC86300D2C4DA /* Utility.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		073EB5C7187EA6C000EF47DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073EB599187EA6C000EF47DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 073EB5A0187EA6C000EF47DF;
+			remoteInfo = JCOpenCVCameraImgMatchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073EB5A1187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCOpenCVCameraImgMatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		073EB5A4187EA6C000EF47DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		073EB5A6187EA6C000EF47DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		073EB5A8187EA6C000EF47DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		073EB5AC187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JCOpenCVCameraImgMatchDemo-Info.plist"; sourceTree = "<group>"; };
+		073EB5AE187EA6C000EF47DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		073EB5B0187EA6C000EF47DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		073EB5B2187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JCOpenCVCameraImgMatchDemo-Prefix.pch"; sourceTree = "<group>"; };
+		073EB5B3187EA6C000EF47DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		073EB5B4187EA6C000EF47DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		073EB5B7187EA6C000EF47DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		073EB5B9187EA6C000EF47DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		073EB5BA187EA6C000EF47DF /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		073EB5BC187EA6C000EF47DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		073EB5C2187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCOpenCVCameraImgMatchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		073EB5C3187EA6C000EF47DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		073EB5CB187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JCOpenCVCameraImgMatchDemoTests-Info.plist"; sourceTree = "<group>"; };
+		073EB5CD187EA6C000EF47DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		073EB5CF187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCOpenCVCameraImgMatchDemoTests.m; sourceTree = "<group>"; };
+		073EB5D9187EA6F500EF47DF /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../OpenCV/2.4.8/opencv2.framework; sourceTree = "<group>"; };
+		073EB5DB187EA75600EF47DF /* CameraImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraImageHelper.h; sourceTree = "<group>"; };
+		073EB5DC187EA75600EF47DF /* CameraImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraImageHelper.m; sourceTree = "<group>"; };
+		079B8E70187FC86300D2C4DA /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		079B8E71187FC86300D2C4DA /* Utility.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Utility.mm; sourceTree = "<group>"; };
+		079B8E73187FD35C00D2C4DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073EB59E187EA6C000EF47DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073EB5A7187EA6C000EF47DF /* CoreGraphics.framework in Frameworks */,
+				073EB5A9187EA6C000EF47DF /* UIKit.framework in Frameworks */,
+				073EB5DA187EA6F500EF47DF /* opencv2.framework in Frameworks */,
+				073EB5A5187EA6C000EF47DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073EB5BF187EA6C000EF47DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073EB5C4187EA6C000EF47DF /* XCTest.framework in Frameworks */,
+				073EB5C6187EA6C000EF47DF /* UIKit.framework in Frameworks */,
+				073EB5C5187EA6C000EF47DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073EB598187EA6C000EF47DF = {
+			isa = PBXGroup;
+			children = (
+				079B8E73187FD35C00D2C4DA /* AVFoundation.framework */,
+				073EB5D9187EA6F500EF47DF /* opencv2.framework */,
+				073EB5AA187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo */,
+				073EB5C9187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests */,
+				073EB5A3187EA6C000EF47DF /* Frameworks */,
+				073EB5A2187EA6C000EF47DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		073EB5A2187EA6C000EF47DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				073EB5A1187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo.app */,
+				073EB5C2187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		073EB5A3187EA6C000EF47DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				073EB5A4187EA6C000EF47DF /* Foundation.framework */,
+				073EB5A6187EA6C000EF47DF /* CoreGraphics.framework */,
+				073EB5A8187EA6C000EF47DF /* UIKit.framework */,
+				073EB5C3187EA6C000EF47DF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		073EB5AA187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				073EB5DB187EA75600EF47DF /* CameraImageHelper.h */,
+				073EB5DC187EA75600EF47DF /* CameraImageHelper.m */,
+				073EB5B3187EA6C000EF47DF /* AppDelegate.h */,
+				073EB5B4187EA6C000EF47DF /* AppDelegate.m */,
+				073EB5B6187EA6C000EF47DF /* Main.storyboard */,
+				073EB5B9187EA6C000EF47DF /* ViewController.h */,
+				073EB5BA187EA6C000EF47DF /* ViewController.mm */,
+				079B8E70187FC86300D2C4DA /* Utility.h */,
+				079B8E71187FC86300D2C4DA /* Utility.mm */,
+				073EB5BC187EA6C000EF47DF /* Images.xcassets */,
+				073EB5AB187EA6C000EF47DF /* Supporting Files */,
+			);
+			path = JCOpenCVCameraImgMatchDemo;
+			sourceTree = "<group>";
+		};
+		073EB5AB187EA6C000EF47DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				073EB5AC187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo-Info.plist */,
+				073EB5AD187EA6C000EF47DF /* InfoPlist.strings */,
+				073EB5B0187EA6C000EF47DF /* main.m */,
+				073EB5B2187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		073EB5C9187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				073EB5CF187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.m */,
+				073EB5CA187EA6C000EF47DF /* Supporting Files */,
+			);
+			path = JCOpenCVCameraImgMatchDemoTests;
+			sourceTree = "<group>";
+		};
+		073EB5CA187EA6C000EF47DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				073EB5CB187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests-Info.plist */,
+				073EB5CC187EA6C000EF47DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		073EB5A0187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073EB5D3187EA6C000EF47DF /* Build configuration list for PBXNativeTarget "JCOpenCVCameraImgMatchDemo" */;
+			buildPhases = (
+				073EB59D187EA6C000EF47DF /* Sources */,
+				073EB59E187EA6C000EF47DF /* Frameworks */,
+				073EB59F187EA6C000EF47DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCOpenCVCameraImgMatchDemo;
+			productName = JCOpenCVCameraImgMatchDemo;
+			productReference = 073EB5A1187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		073EB5C1187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073EB5D6187EA6C000EF47DF /* Build configuration list for PBXNativeTarget "JCOpenCVCameraImgMatchDemoTests" */;
+			buildPhases = (
+				073EB5BE187EA6C000EF47DF /* Sources */,
+				073EB5BF187EA6C000EF47DF /* Frameworks */,
+				073EB5C0187EA6C000EF47DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				073EB5C8187EA6C000EF47DF /* PBXTargetDependency */,
+			);
+			name = JCOpenCVCameraImgMatchDemoTests;
+			productName = JCOpenCVCameraImgMatchDemoTests;
+			productReference = 073EB5C2187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		073EB599187EA6C000EF47DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jimple Chen";
+				TargetAttributes = {
+					073EB5C1187EA6C000EF47DF = {
+						TestTargetID = 073EB5A0187EA6C000EF47DF;
+					};
+				};
+			};
+			buildConfigurationList = 073EB59C187EA6C000EF47DF /* Build configuration list for PBXProject "JCOpenCVCameraImgMatchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 073EB598187EA6C000EF47DF;
+			productRefGroup = 073EB5A2187EA6C000EF47DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				073EB5A0187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo */,
+				073EB5C1187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		073EB59F187EA6C000EF47DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073EB5BD187EA6C000EF47DF /* Images.xcassets in Resources */,
+				073EB5AF187EA6C000EF47DF /* InfoPlist.strings in Resources */,
+				073EB5B8187EA6C000EF47DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073EB5C0187EA6C000EF47DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073EB5CE187EA6C000EF47DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073EB59D187EA6C000EF47DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073EB5BB187EA6C000EF47DF /* ViewController.mm in Sources */,
+				073EB5B5187EA6C000EF47DF /* AppDelegate.m in Sources */,
+				079B8E72187FC86300D2C4DA /* Utility.mm in Sources */,
+				073EB5DD187EA75600EF47DF /* CameraImageHelper.m in Sources */,
+				073EB5B1187EA6C000EF47DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073EB5BE187EA6C000EF47DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073EB5D0187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		073EB5C8187EA6C000EF47DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 073EB5A0187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo */;
+			targetProxy = 073EB5C7187EA6C000EF47DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		073EB5AD187EA6C000EF47DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				073EB5AE187EA6C000EF47DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		073EB5B6187EA6C000EF47DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				073EB5B7187EA6C000EF47DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		073EB5CC187EA6C000EF47DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				073EB5CD187EA6C000EF47DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		073EB5D1187EA6C000EF47DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		073EB5D2187EA6C000EF47DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		073EB5D4187EA6C000EF47DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jimple/work/git/JCOpenCVSample/OpenCV/2.4.8,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCOpenCVCameraImgMatchDemo/JCOpenCVCameraImgMatchDemo-Prefix.pch";
+				INFOPLIST_FILE = "JCOpenCVCameraImgMatchDemo/JCOpenCVCameraImgMatchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		073EB5D5187EA6C000EF47DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jimple/work/git/JCOpenCVSample/OpenCV/2.4.8,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCOpenCVCameraImgMatchDemo/JCOpenCVCameraImgMatchDemo-Prefix.pch";
+				INFOPLIST_FILE = "JCOpenCVCameraImgMatchDemo/JCOpenCVCameraImgMatchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		073EB5D7187EA6C000EF47DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JCOpenCVCameraImgMatchDemo.app/JCOpenCVCameraImgMatchDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCOpenCVCameraImgMatchDemo/JCOpenCVCameraImgMatchDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JCOpenCVCameraImgMatchDemoTests/JCOpenCVCameraImgMatchDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		073EB5D8187EA6C000EF47DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JCOpenCVCameraImgMatchDemo.app/JCOpenCVCameraImgMatchDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCOpenCVCameraImgMatchDemo/JCOpenCVCameraImgMatchDemo-Prefix.pch";
+				INFOPLIST_FILE = "JCOpenCVCameraImgMatchDemoTests/JCOpenCVCameraImgMatchDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073EB59C187EA6C000EF47DF /* Build configuration list for PBXProject "JCOpenCVCameraImgMatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073EB5D1187EA6C000EF47DF /* Debug */,
+				073EB5D2187EA6C000EF47DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073EB5D3187EA6C000EF47DF /* Build configuration list for PBXNativeTarget "JCOpenCVCameraImgMatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073EB5D4187EA6C000EF47DF /* Debug */,
+				073EB5D5187EA6C000EF47DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073EB5D6187EA6C000EF47DF /* Build configuration list for PBXNativeTarget "JCOpenCVCameraImgMatchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073EB5D7187EA6C000EF47DF /* Debug */,
+				073EB5D8187EA6C000EF47DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 073EB599187EA6C000EF47DF /* Project object */;
+}
