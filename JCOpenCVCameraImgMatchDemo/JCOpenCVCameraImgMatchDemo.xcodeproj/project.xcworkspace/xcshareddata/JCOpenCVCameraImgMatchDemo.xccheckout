@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>AF11D5EA-32EC-4CE5-A133-F57C4F5735AE</string>
+	<string>A2494BA0-2630-4C5B-BCC0-F4FB554404E7</string>
 	<key>IDESourceControlProjectName</key>
 	<string>JCOpenCVCameraImgMatchDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>594BD79C-112A-4CEB-9557-42A1AAC8C0F4</key>
-		<string>https://github.com/jimple/JCOpenCVSample.git</string>
+		<key>DB75A7D7-DF5A-4CE9-B254-D87CD780E10A</key>
+		<string>https://github.com/jimple/OpenCVSample.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>JCOpenCVCameraImgMatchDemo/JCOpenCVCameraImgMatchDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>594BD79C-112A-4CEB-9557-42A1AAC8C0F4</key>
+		<key>DB75A7D7-DF5A-4CE9-B254-D87CD780E10A</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jimple/JCOpenCVSample.git</string>
+	<string>https://github.com/jimple/OpenCVSample.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>594BD79C-112A-4CEB-9557-42A1AAC8C0F4</string>
+	<string>DB75A7D7-DF5A-4CE9-B254-D87CD780E10A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>594BD79C-112A-4CEB-9557-42A1AAC8C0F4</string>
+			<string>DB75A7D7-DF5A-4CE9-B254-D87CD780E10A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>JCOpenCVSample</string>
+			<string>OpenCVSample</string>
 		</dict>
 	</array>
 </dict>

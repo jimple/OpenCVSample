@@ -21,9 +21,9 @@
 		073EB5C6187EA6C000EF47DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073EB5A8187EA6C000EF47DF /* UIKit.framework */; };
 		073EB5CE187EA6C000EF47DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 073EB5CC187EA6C000EF47DF /* InfoPlist.strings */; };
 		073EB5D0187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 073EB5CF187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.m */; };
-		073EB5DA187EA6F500EF47DF /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073EB5D9187EA6F500EF47DF /* opencv2.framework */; };
 		073EB5DD187EA75600EF47DF /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 073EB5DC187EA75600EF47DF /* CameraImageHelper.m */; };
 		079B8E72187FC86300D2C4DA /* Utility.mm in Sources */ = {isa = PBXBuildFile; fileRef = 079B8E71187FC86300D2C4DA /* Utility.mm */; };
+		079B8E84187FE9AD00D2C4DA /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079B8E83187FE9AD00D2C4DA /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +56,12 @@
 		073EB5CB187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JCOpenCVCameraImgMatchDemoTests-Info.plist"; sourceTree = "<group>"; };
 		073EB5CD187EA6C000EF47DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		073EB5CF187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCOpenCVCameraImgMatchDemoTests.m; sourceTree = "<group>"; };
-		073EB5D9187EA6F500EF47DF /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../OpenCV/2.4.8/opencv2.framework; sourceTree = "<group>"; };
 		073EB5DB187EA75600EF47DF /* CameraImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraImageHelper.h; sourceTree = "<group>"; };
 		073EB5DC187EA75600EF47DF /* CameraImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraImageHelper.m; sourceTree = "<group>"; };
 		079B8E70187FC86300D2C4DA /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		079B8E71187FC86300D2C4DA /* Utility.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Utility.mm; sourceTree = "<group>"; };
 		079B8E73187FD35C00D2C4DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		079B8E83187FE9AD00D2C4DA /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../OpenCV/2.4.8/opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079B8E84187FE9AD00D2C4DA /* opencv2.framework in Frameworks */,
 				073EB5A7187EA6C000EF47DF /* CoreGraphics.framework in Frameworks */,
 				073EB5A9187EA6C000EF47DF /* UIKit.framework in Frameworks */,
-				073EB5DA187EA6F500EF47DF /* opencv2.framework in Frameworks */,
 				073EB5A5187EA6C000EF47DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,8 +92,8 @@
 		073EB598187EA6C000EF47DF = {
 			isa = PBXGroup;
 			children = (
+				079B8E83187FE9AD00D2C4DA /* opencv2.framework */,
 				079B8E73187FD35C00D2C4DA /* AVFoundation.framework */,
-				073EB5D9187EA6F500EF47DF /* opencv2.framework */,
 				073EB5AA187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemo */,
 				073EB5C9187EA6C000EF47DF /* JCOpenCVCameraImgMatchDemoTests */,
 				073EB5A3187EA6C000EF47DF /* Frameworks */,
@@ -400,6 +400,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/jimple/work/git/JCOpenCVSample/OpenCV/2.4.8,
+					/Users/jimple/work/git/OpenCVSample/OpenCV/2.4.8,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCOpenCVCameraImgMatchDemo/JCOpenCVCameraImgMatchDemo-Prefix.pch";
@@ -418,6 +419,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/jimple/work/git/JCOpenCVSample/OpenCV/2.4.8,
+					/Users/jimple/work/git/OpenCVSample/OpenCV/2.4.8,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCOpenCVCameraImgMatchDemo/JCOpenCVCameraImgMatchDemo-Prefix.pch";
