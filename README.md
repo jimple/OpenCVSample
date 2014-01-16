@@ -60,6 +60,9 @@ http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/tutorials.html
 
 5、什么内存、耗电之类的都没考虑。仅在iPhone5上测试过。
 
+    - 据说在iPhone4S+iOS6.1会crash，出错信息如下。可是我没有4S+iOS6.1的环境，opencv又是直接拿的framework没有自己编译。所以，只在模拟器上试了一下本地两张本地静态图片的匹配（木有问题），没有在这个环境下试摄像头实时获取。（臣妾真的做不到啊～～）
+
+    - Bad argument (Invalid histogram header[s]) in cvCompareHist。opencv-2.4.8/modules/imgproc/src/histogram.cpp, line 2460 libc++abi.dylib: terminate called throwing an exception。
 
 
 ------ 感谢 ------
