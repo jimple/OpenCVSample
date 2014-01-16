@@ -71,7 +71,7 @@
     _picker.allowsEditing = NO;
     _picker.sourceType = sourceType;
     
-    [self performSelector:@selector(getPhoto) withObject:nil afterDelay:0.1f];
+    [self performSelector:@selector(getPhoto) withObject:nil afterDelay:0.2f];
 }
 
 - (void)getPhoto
@@ -303,7 +303,7 @@
         case UIImageOrientationDownMirrored:
         {
             bIsRotate = NO;
-            NSLog(@"UP [%d]", image.imageOrientation);
+//            NSLog(@"UP [%d]", image.imageOrientation);
         }
             break;
         case UIImageOrientationLeft:
@@ -312,7 +312,7 @@
         case UIImageOrientationRightMirrored:
         {
             bIsRotate = YES;
-            NSLog(@"LEFT [%d]", image.imageOrientation);
+//            NSLog(@"LEFT [%d]", image.imageOrientation);
         }
             break;
         default:
@@ -360,7 +360,7 @@
     cvNormalizeHist(_histSrc, 1);
     
     // 启动摄像头，开始与摄像头图像匹配
-    [self startCamera];
+    [self performSelector:@selector(startCamera) withObject:nil afterDelay:0.5f];
 
 //////////////////////////////////////////////////////////////////////////////////////////////
     
