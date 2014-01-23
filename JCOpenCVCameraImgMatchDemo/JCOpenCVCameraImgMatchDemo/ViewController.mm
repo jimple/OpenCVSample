@@ -123,7 +123,7 @@
     _viewCamera = [CameraImageHelper previewWithBounds:CGRectMake(40.0f, 60.0f, 240.0f, 360.0f)];
     [self.view addSubview:_viewCamera];
     
-    _timer = [NSTimer scheduledTimerWithTimeInterval:0.5f           // 每 0.5 秒取一张相片做匹配
+    _timer = [NSTimer scheduledTimerWithTimeInterval:0.7f           // 每 0.7 秒取一张相片做匹配
                                               target:self
                                             selector:@selector(timerMethod:)
                                             userInfo:nil
