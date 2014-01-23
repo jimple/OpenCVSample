@@ -64,6 +64,9 @@ http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/tutorials.html
 
     - Bad argument (Invalid histogram header[s]) in cvCompareHist。opencv-2.4.8/modules/imgproc/src/histogram.cpp, line 2460 libc++abi.dylib: terminate called throwing an exception。
 
+   - 感谢 code4app.com 编辑的测试。
+      我修改了一下（Build Settings中，将“C++ Standard Library”设置成libstdc++）。用4S iOS6.1.3测试了，偶尔会crash一次，大部分正常运行。
+
 
 ------ 感谢 ------
 
