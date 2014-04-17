@@ -26,6 +26,9 @@ http://docs.opencv.org/trunk/doc/tutorials/introduction/ios_install/ios_install.
     
     http://www.mirrorservice.org/sites/downloads.sourceforge.net/o/op/opencvlibrary/opencv-ios/
     
+    据说可以编译通过：（待验证...）
+    http://answers.opencv.org/question/30940/opencv-builds-on-lab-computer-but-not-laptop/
+    
 4、然后就可以开干了。
 
 先对着教程一阵胡看，再加上以前windows上搞过一下，然后就开始创建工程编码了。
