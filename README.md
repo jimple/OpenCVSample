@@ -28,6 +28,7 @@ http://docs.opencv.org/trunk/doc/tutorials/introduction/ios_install/ios_install.
     
     据说可以编译通过：（待验证...）
     http://answers.opencv.org/question/30940/opencv-builds-on-lab-computer-but-not-laptop/
+    http://stackoverflow.com/questions/16983696/how-to-build-opencv-2-4-9-for-ios
     
 4、然后就可以开干了。
 
