@@ -84,21 +84,21 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
     
-    _timer = nil;
-    [CameraImageHelper stopRunning];
-    
-    cvReleaseImage(&_iplImgSrc);
-    _iplImgSrc = NULL;
-    cvReleaseHist(&_histSrc);
-    _histSrc = NULL;
-    
-    self.m_viewSrc = nil;
-    self.m_labelData = nil;
-    self.m_labelRet = nil;
-    self.m_labelRetHard = nil;
-    self.m_labelRetNormal = nil;
-    self.m_labelRetEasy = nil;
-    self.m_labelRetCanny = nil;
+//    _timer = nil;
+//    [CameraImageHelper stopRunning];
+//    
+//    cvReleaseImage(&_iplImgSrc);
+//    _iplImgSrc = NULL;
+//    cvReleaseHist(&_histSrc);
+//    _histSrc = NULL;
+//    
+//    self.m_viewSrc = nil;
+//    self.m_labelData = nil;
+//    self.m_labelRet = nil;
+//    self.m_labelRetHard = nil;
+//    self.m_labelRetNormal = nil;
+//    self.m_labelRetEasy = nil;
+//    self.m_labelRetCanny = nil;
 }
 
 - (void)dealloc
