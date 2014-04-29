@@ -13,7 +13,7 @@ OpenCV的iOS例子
 
 http://blog.devtang.com/blog/2012/10/27/use-opencv-in-ios/
 
-2、下载openCV代码。（下载了last release 2.4.8）
+2、下载openCV代码。（下载了last release 2.4.9）
 
 https://github.com/Itseez/opencv/releases
 
