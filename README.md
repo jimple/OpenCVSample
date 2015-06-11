@@ -26,20 +26,20 @@ http://docs.opencv.org/trunk/doc/tutorials/introduction/ios_install/ios_install.
     
     http://www.mirrorservice.org/sites/downloads.sourceforge.net/o/op/opencvlibrary/opencv-ios/
     
-******************************************
-****** 终于编译成功 ******
-
-环境：OS X 10.9.2 、 Xcode5.1.1 、 CMake2.8-12.2 、 openCV2.4.9
-
-需要修改 opencv-2.4.9/platforms/ios/build_framework.py  的两处地方：
-
-  1）所有 IPHONEOS_DEPLOYMENT_TARGET=6.0 修改为 IPHONEOS_DEPLOYMENT_TARGET=7.1
-  
-  2）第40行后添加一行 "-DCMAKE_C_FLAGS=\"-Wno-implicit-function-declaration\" " +
-
-然后按照  http://docs.opencv.org/trunk/doc/tutorials/introduction/ios_install/ios_install.html#ios-installation  的方法直接编译。
-
-**********************************************
+> ******************************************
+> ****** 终于编译成功 ******
+> 
+> 环境：OS X 10.9.2 、 Xcode5.1.1 、 CMake2.8-12.2 、 openCV2.4.9
+> 
+> 需要修改 opencv-2.4.9/platforms/ios/build_framework.py  的两处地方：
+> 
+>   1）所有 IPHONEOS_DEPLOYMENT_TARGET=6.0 修改为 IPHONEOS_DEPLOYMENT_TARGET=7.1
+>   
+>   2）第40行后添加一行 "-DCMAKE_C_FLAGS=\"-Wno-implicit-function-declaration\" " +
+> 
+> 然后按照  http://docs.opencv.org/trunk/doc/tutorials/introduction/ios_install/ios_install.html#ios-installation  的方法直接编译。
+> 
+> **********************************************
     
 4、然后就可以开干了。
 
