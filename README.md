@@ -7,7 +7,7 @@ OpenCV的iOS例子
 想做一些图像匹配，所以最近学习使用openCV，并做了一些试验。
 
 
------- 安装 openCV ------
+## 安装 openCV 
 
 1、首先是学习了这篇博客，了解大概过程。（最终并没有完全按照里面的步骤去做）
 
@@ -48,7 +48,7 @@ http://docs.opencv.org/trunk/doc/tutorials/introduction/ios_install/ios_install.
 http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/tutorials.html
 
 
------- 创建openCV工程 ------
+## 创建openCV工程 
 
 1、创建一个iOS工程，把opencv2.Framework加进去。
 
@@ -76,13 +76,14 @@ http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/tutorials.html
 5、什么内存、耗电之类的都没考虑。仅在iPhone5上测试过。
 
 
------- 感谢 ------
+# 感谢 
 
 读取摄像头图像的方法用的是这个：
 
 https://github.com/erica/iOS-5-Cookbook/tree/master/C07/05-Camera%20Helper
 
-
+# license
+MIT
 
 --------------------------------------------------------------------------
 一些用到的资料：
