@@ -76,6 +76,12 @@ http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/tutorials.html
 5、什么内存、耗电之类的都没考虑。仅在iPhone5上测试过。
 
 
+
+![Screenshot1](http://code4app.qiniudn.com/photo/5350ebe3933bf05e7c8b58cd_1.png "Screenshot1")
+![Screenshot2](http://code4app.qiniudn.com/photo/5350ebe3933bf05e7c8b58cd_11.png "Screenshot2")
+
+
+
 # 感谢 
 
 读取摄像头图像的方法用的是这个：
